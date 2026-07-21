@@ -1,0 +1,23 @@
+.footer{
+    animation: fadeIn 0.8s ease-out;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-family: var(--font-heading);
+}
+
+.footer a:hover{
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+ /* Created a FadeIn animation for my about-section to use*/
+ @keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+ }   
