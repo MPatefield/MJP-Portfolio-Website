@@ -5,7 +5,7 @@
     font-family: var(--font-heading);
 }
 
-.footer a:hover{
+.footer-nav a:hover{
     color: var(--color-accent);
     font-weight: 600;
 }
