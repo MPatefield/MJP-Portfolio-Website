@@ -3,9 +3,21 @@
 :root{
   --color-primary: #606565;
   --color-secondary: #f4f1ea;
+  --color-accent:#c98a5c;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Manrope', sans-serif;
 }
 
 body{
   background-color: var(--color-primary);
   color: var(--color-secondary);
+  font-family: var(--font-body);
+}
+
+h1, h2 {
+  font-family: var(--font-heading);
+}
+
+html{
+  scroll-behavior: smooth;
 }

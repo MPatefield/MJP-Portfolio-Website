@@ -1,6 +1,10 @@
  .skills-section{
     animation: fadeIn 0.8s ease-out;
  }
+
+ .section-title{
+    font-size: 24px;
+}
  
  
  /* Created a FadeIn animation for my hero-section to use*/

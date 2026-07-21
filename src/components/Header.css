@@ -1,9 +1,16 @@
-.about-section{
+.header-section{
     animation: fadeIn 0.8s ease-out;
 }
 
-.section-title{
-    font-size: 24px;
+.nav{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-family: var(--font-heading);
+}
+
+.header-link:hover{
+    color: var(--color-accent);
+    font-weight: 600;
 }
 
  /* Created a FadeIn animation for my about-section to use*/
