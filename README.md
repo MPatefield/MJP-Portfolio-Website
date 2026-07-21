@@ -1,16 +1,46 @@
-# React + Vite
+# Matthew James Patefield — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio site built to showcase my journey learning front-end web development, from HTML/CSS fundamentals through to React.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This site is both a portfolio and a project in itself — built from scratch using React and Tailwind CSS, with a custom colour palette and typography, to demonstrate practical, hands-on front-end skills alongside the projects it showcases.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (via Vite)
+- **Tailwind CSS** — layout, spacing, and responsive design
+- **Custom CSS** — colour variables, typography, and animations
+- **Fonts:** Space Grotesk (headings), Manrope (body text)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive, single-page layout with smooth-scroll anchor navigation
+- Custom dark colour palette inspired by Farrow & Ball's Downpipe, with an off-white and terracotta accent
+- Component-based architecture (Header, Hero, About, Skills, Projects, Footer)
+- Subtle fade-in animations on each section
+
+## Sections
+
+- **Home** — introduction
+- **About** — my background and coding journey
+- **Skills** — technologies I'm currently comfortable with
+- **Projects** — a showcase of course projects, spanning HTML, CSS, JavaScript, and React
+- **Contact** — email, GitHub, and LinkedIn
+
+## Status
+
+🚧 Work in progress — currently building out the Projects section. More projects to be added as I complete further modules of my coding course (including Python).
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Contact
+
+- Email: m.patefield95@hotmail.co.uk
+- GitHub: [MPatefield](https://github.com/MPatefield)
+- LinkedIn: [matthew-patefield](https://www.linkedin.com/in/matthew-patefield/)
