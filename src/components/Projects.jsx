@@ -27,7 +27,7 @@ function Projects() {
         netlifyLink: "linkhere"},
         {img: memoryFlipGameImg, 
         title: "Memory Flip Card Game", 
-        description: "This was a fun little side-project i did for fun whilst learning vanilla JavaScript. Showcases use of (Enter Skills here).", 
+        description: "A retro arcade style memory matching game built entirely in vanilla JavaScript. Flip cards to find matching pairs, race the clock, and track your move count, complete with a win screen and instant replay..", 
         githubLink: "https://github.com/MPatefield/memory-card-flip-VJS", 
         netlifyLink: "https://luminous-gumdrop-51c8f5.netlify.app/"},
     ]
