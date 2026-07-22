@@ -2,6 +2,30 @@
     animation: fadeIn 0.8s ease-out;
 }
 
+.image-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero-img {
+    position: relative;
+    z-index: 1;
+}
+
+.image-wrapper::before {
+    animation: spin 3s linear infinite ;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: conic-gradient(var(--color-primary), var(--color-accent), var(--color-secondary), var(--color-primary));
+}
+
 .hero-name{
     font-size: 36px;
 }
@@ -17,3 +41,11 @@
         transform: translateY(0px);
     }
  }   
+
+ @keyframes spin {
+    from{
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+ }

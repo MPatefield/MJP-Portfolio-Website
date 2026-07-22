@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import './ProjectCard.css'

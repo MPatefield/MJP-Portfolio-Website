@@ -27,7 +27,7 @@ function Projects() {
     
 
     return(
-        <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto py-16 px-4 gap-8">
+        <div id="projects" className="grid grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto py-16 px-4 gap-8">
             {projectList.map((project, index) => (
                 <ProjectCard key={index} img={project.img} title={project.title} description={project.description} githubLink={project.githubLink} netlifyLink={project.netlifyLink} />
             ))}
