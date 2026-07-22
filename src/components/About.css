@@ -1,5 +1,9 @@
 .about-section{
     animation: fadeIn 0.8s ease-out;
+    background-color: var(--color-secondary);
+    color: var(--color-accent);
+    border-radius: 10px;
+    box-shadow: 5px 5px var(--color-accent);
 }
 
 .section-title{

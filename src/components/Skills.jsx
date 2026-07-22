@@ -4,7 +4,7 @@ import './Skills.css'
 function Skills() {
     return(
         <div id="skills" className="skills-section max-w-2xl mx-auto py-16 text-center">
-            <h2 className="section-title text-left">My Skills..</h2>
+            <h2 className="section-title mb-4">My Skills..</h2>
             <p>So I'm a self confessed newbie to coding/programming. Currently feel pretty confident in the below skills:</p>
             <ul>
                 <li>HTML</li>

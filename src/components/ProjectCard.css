@@ -12,6 +12,11 @@
   fill: var(--color-primary);
 }
 
+.project-img{
+    border: 2px solid var(--color-accent);
+    border-radius: 5px;
+}
+
 .project-card:hover {
     box-shadow: 5px 5px 0 0;
     transform: translateX(-5px) translateY(-5px);
