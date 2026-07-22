@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import JsProjectImg from '../assets/JSProjectImg.png'
 
 function Projects() {
 
@@ -14,10 +15,10 @@ function Projects() {
         githubLink: "linkhere", 
         netlifyLink: "linkhere"},
         {img: "https://placehold.co/400x300/606565/f4f1ea?text=Project+3", 
-        title: "Project3", 
-        description: "JS Project", 
-        githubLink: "linkhere", 
-        netlifyLink: "linkhere"},
+        title: {JsProjectImg}, 
+        description: "This is my main JavaScript project that i was asked to do. Details contained within READ.md. Available to view via GitHub or Netlify using the buttons below.", 
+        githubLink: "https://github.com/MPatefield/ITOL-Diary-Project", 
+        netlifyLink: "https://euphonious-vacherin-96ee25.netlify.app/"},
         {img: "https://placehold.co/400x300/606565/f4f1ea?text=Project+4", 
         title: "Project4", 
         description: "React Project", 
