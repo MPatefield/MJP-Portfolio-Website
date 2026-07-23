@@ -2,29 +2,26 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import JsProjectImg from '../assets/JSProjectImg.png'
 import memoryFlipGameImg from '../assets/memoryFlipGameImg.png'
+import htmlWebsiteImg from '../assets/htmlWebsiteImg.png'
+import ReactPortImg from '../assets/REACTportImg.png'
 
 function Projects() {
 
-    const projectList = [{img: "https://placehold.co/400x300/606565/f4f1ea?text=Project+1", 
-        title: "Project1", 
-        description: "HTML Project", 
-        githubLink: "linkhere", 
-        netlifyLink: "linkhere"},
-        {img: "https://placehold.co/400x300/606565/f4f1ea?text=Project+2", 
-        title: "Project2", 
-        description: "CSS Project", 
-        githubLink: "linkhere", 
-        netlifyLink: "linkhere"},
+    const projectList = [{img: htmlWebsiteImg, 
+        title: "HTML & CSS based website", 
+        description: "A 5-page HTML & CSS site for a fictional yacht touring company. Covers semantic markup, forms, tables, and a responsive image gallery, styled entirely with custom CSS.", 
+        githubLink: "https://github.com/MPatefield/HTML-Yachting-Project", 
+        netlifyLink: "https://classy-chaja-1670f0.netlify.app/"},
         {img: JsProjectImg, 
         title: "Online Diary Project", 
         description: "This is my main JavaScript project that I completed. Details contained within READ.md. Available to view via GitHub or Netlify using the buttons below.", 
         githubLink: "https://github.com/MPatefield/ITOL-Diary-Project", 
         netlifyLink: "https://euphonious-vacherin-96ee25.netlify.app/"},
-        {img: "https://placehold.co/400x300/606565/f4f1ea?text=Project+4", 
-        title: "Project4", 
-        description: "React Project", 
-        githubLink: "linkhere", 
-        netlifyLink: "linkhere"},
+        {img: ReactPortImg, 
+        title: "Portfolio Website", 
+        description: "You're looking at it! This portfolio is my React project — built with reusable components, props, and dynamic rendering via .map(), styled with Tailwind and custom CSS.", 
+        githubLink: "https://github.com/MPatefield/MJP-Portfolio-Website", 
+        netlifyLink: "https://flourishing-brigadeiros-4a54c7.netlify.app/"},
         {img: memoryFlipGameImg, 
         title: "Memory Flip Card Game", 
         description: "A retro arcade style memory matching game built entirely in vanilla JavaScript. Flip cards to find matching pairs, race the clock, and track your move count, complete with a win screen and instant replay..", 
